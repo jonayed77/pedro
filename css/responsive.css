@@ -1,0 +1,242 @@
+/* Desktop Layout */
+body{
+	overflow-x:hidden;
+}
+.main-menu-area{
+	display:block;
+}
+.main-mobile-menu{
+	display:none;
+}
+.header-logo{
+	display:block;
+}
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+.main-menu-area{
+	display:block;
+	text-align:left;
+}
+.main-mobile-menu{
+	display:none;
+}
+.mobile-nav{
+	display:none;
+}
+.mean-container .mean-bar {
+	display: none;
+}
+.main-menu-area ul li {
+	display: inline-block;
+	padding-left: 8px;
+	position: relative;
+}
+.header-logo img{
+	display:block;
+}
+.header-nav {
+	float: right;
+}
+.header-nav li a {
+	font-size: 14px;
+}
+.main-timeline .title {
+  font-size: 20px;
+}
+.our-services-text h3 {
+  font-size: 22px;
+}
+.how-i-work-row {
+  margin-bottom: 70px;
+}
+.about-row {
+  padding-bottom: 50px;
+}
+.education-section-row {
+  padding-bottom: 0;
+}
+.single-post-item .content-box .text-content {
+  padding: 10px 10px 20px 20px;
+}
+.single-post-item .content-box .text-content:before {
+  content: none;
+}
+.single-post-item .content-box {
+  padding: 37px 0 0 25px;
+}
+.contact-item .c-text h6 {
+	font-size: 16px;
+}
+.single-post-item .image:before {
+  transform: skewX(0deg);
+  -webkit-transform: skewX(0deg);
+  -ms-transform: skewX(0deg);
+  -o-transform: skewX(0deg);
+  -moz-transform: skewX(0deg);
+}
+.btn-portfolio {
+	font-size: 12px;
+}
+
+}
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+.mean-bar a {
+	color: #000;
+  font-weight: 700;
+  font-size: 35px;
+  padding-top: 10px;
+  padding-left: 15px;
+  display: inline-block;
+}
+.main-menu-area{
+	display:none;
+}
+.main-mobile-menu{
+	display:block;
+}
+.header-logo{
+	display:none;
+}
+.mean-container .mean-bar {
+  position: fixed !important;
+}
+.btn-cv {
+  margin-right: 15px;
+}
+.down-home-scroll {
+  left: 46%;
+	bottom: 5%;
+}
+.title h1 {
+	font-size: 30px;
+}
+.title h4 {
+	font-size: 22px;
+}
+.skill-ul {
+	border: none;
+	margin: 0;
+}
+.skill-ul li {
+	font-size: 18px;
+	line-height: 20px;
+}
+.btn-title {
+  padding: 10px 15px;
+	font-size: 16px;
+}
+.mean-container .mean-bar {
+  box-shadow: rgb(0, 0, 0) 0px 5px 8px -5px;
+  -webkit-box-shadow: rgb(0, 0, 0) 0px 5px 8px -5px;
+}
+.about-section-right {
+	margin-top: 50px;
+}
+.about-row {
+  padding-bottom: 0;
+}
+.process-item {
+	margin-bottom: 30px;
+}
+.how-i-work-row {
+	margin-bottom: 0;
+}
+.main-timeline-2 .exprience-title-right {
+  text-align: left;
+}
+.portfolio-filter {
+	padding: 0;
+	margin: 0;
+	margin-bottom: 30px;
+}
+.portfolio-filter > li {
+  margin-left: 0;
+}
+.dlab-info-has.p-a15 {
+  padding: 10px;
+}
+.btn-download-cv {
+  margin-left: 20px;
+}
+.technical-skills .bar_group__bar.thick::before {
+	width: 90%;
+}
+.main-timeline-2 .mobile-text {
+	font-size: 16px;
+	text-align: left;
+	color: #16a085;
+	font-weight: 400;
+	font-family: 'Nunito', sans-serif;
+}
+.main-timeline-2 .title {
+  margin-bottom: 5px;
+}
+/*--BLOG-SECTION--*/
+.single-post-item .content-box .text-content:before {
+	content: none;
+}
+.single-post-item .image:before {
+  transform: skewX(0deg);
+  -webkit-transform: skewX(0deg);
+  -ms-transform: skewX(0deg);
+  -o-transform: skewX(0deg);
+  -moz-transform: skewX(0deg);
+}
+.single-post-item .content-box .text-content .info {
+	margin-bottom: 0;
+}
+.single-post-item .content-box .text-content h3 {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.single-post-item .content-box .text-content {
+	width: 260px;
+}
+.footer-icon li a {
+  font-size: 19px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+}
+.search-widget {
+  margin-top: 25px;
+}
+.xboot-comment-area .media {
+  padding: 10px 0 10px 0px;
+}
+.xboot-comment-area ul.media-list {
+	padding: 0;
+}
+.media-replay {
+  margin-left: 0;
+}
+.input-container {
+  margin: 0 15px 20px;
+}
+.social-icon li a {
+  font-size: 14px;
+  width: 34px;
+  height: 34px;
+  line-height: 34px;
+}
+.type-wrap {
+	font-size: 25px;
+	padding: 5px 0 10px;
+}
+
+}
+
+/* Wide Mobile Layout: */
+
+@media only screen and (min-width: 360px) and (max-width: 440px) {
+.single-post-item .content-box {
+	padding-top: 43px;
+}
+
+}
